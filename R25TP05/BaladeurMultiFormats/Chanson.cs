@@ -54,10 +54,10 @@ namespace BaladeurMultiFormats
         /// <summary> 
         /// Initialise une instance a 4 paramettres 
         /// </summary> 
-        /// <param name="pRepertoire">Repertoire du </param> 
-        /// <param name="pArtiste"></param> 
-        /// <param name="pTitre"></param> 
-        /// <param name="pAnnée"></param> 
+        /// <param name="pRepertoire">Repertoire du fichier</param> 
+        /// <param name="pArtiste">Nom de l'artiste</param> 
+        /// <param name="pTitre">Titre de la chanson</param> 
+        /// <param name="pAnnée">Annee de la chanson</param> 
         public Chanson(string pRepertoire, string pArtiste, string pTitre, int pAnnée)
         {
             m_nomFichier = $@"{pRepertoire}\{pTitre}.{Format.ToLower()}";

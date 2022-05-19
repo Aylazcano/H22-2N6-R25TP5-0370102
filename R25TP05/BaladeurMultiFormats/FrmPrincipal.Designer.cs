@@ -52,13 +52,14 @@
             // 
             // mnuPrincipal
             // 
+            this.mnuPrincipal.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.mnuPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuFichier,
             this.mnuFormatTousLesFormats,
             this.mnuSpecial});
             this.mnuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.mnuPrincipal.Name = "mnuPrincipal";
-            this.mnuPrincipal.Size = new System.Drawing.Size(458, 24);
+            this.mnuPrincipal.Size = new System.Drawing.Size(611, 28);
             this.mnuPrincipal.TabIndex = 2;
             this.mnuPrincipal.Text = "menuStrip1";
             // 
@@ -67,14 +68,14 @@
             this.mnuFichier.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuFichierQuitter});
             this.mnuFichier.Name = "mnuFichier";
-            this.mnuFichier.Size = new System.Drawing.Size(54, 20);
+            this.mnuFichier.Size = new System.Drawing.Size(66, 24);
             this.mnuFichier.Text = "&Fichier";
             // 
             // mnuFichierQuitter
             // 
             this.mnuFichierQuitter.Name = "mnuFichierQuitter";
             this.mnuFichierQuitter.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Q)));
-            this.mnuFichierQuitter.Size = new System.Drawing.Size(154, 22);
+            this.mnuFichierQuitter.Size = new System.Drawing.Size(191, 26);
             this.mnuFichierQuitter.Text = "&Quitter";
             this.mnuFichierQuitter.Click += new System.EventHandler(this.MnuFichierQuitter_Click);
             // 
@@ -85,14 +86,14 @@
             this.MnuFormatConvertirVersMP3,
             this.MnuFormatConvertirVersWMA});
             this.mnuFormatTousLesFormats.Name = "mnuFormatTousLesFormats";
-            this.mnuFormatTousLesFormats.Size = new System.Drawing.Size(57, 20);
+            this.mnuFormatTousLesFormats.Size = new System.Drawing.Size(70, 24);
             this.mnuFormatTousLesFormats.Text = "For&mat";
             // 
             // MnuFormatConvertirVersAAC
             // 
             this.MnuFormatConvertirVersAAC.Name = "MnuFormatConvertirVersAAC";
             this.MnuFormatConvertirVersAAC.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F1)));
-            this.MnuFormatConvertirVersAAC.Size = new System.Drawing.Size(222, 22);
+            this.MnuFormatConvertirVersAAC.Size = new System.Drawing.Size(276, 26);
             this.MnuFormatConvertirVersAAC.Text = "Convertir vers &AAC";
             this.MnuFormatConvertirVersAAC.Click += new System.EventHandler(this.MnuFormatConvertirVersAAC_Click);
             // 
@@ -100,7 +101,7 @@
             // 
             this.MnuFormatConvertirVersMP3.Name = "MnuFormatConvertirVersMP3";
             this.MnuFormatConvertirVersMP3.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F2)));
-            this.MnuFormatConvertirVersMP3.Size = new System.Drawing.Size(222, 22);
+            this.MnuFormatConvertirVersMP3.Size = new System.Drawing.Size(276, 26);
             this.MnuFormatConvertirVersMP3.Text = "Convertir vers &MP3";
             this.MnuFormatConvertirVersMP3.Click += new System.EventHandler(this.MnuFormatConvertirVersMP3_Click);
             // 
@@ -108,7 +109,7 @@
             // 
             this.MnuFormatConvertirVersWMA.Name = "MnuFormatConvertirVersWMA";
             this.MnuFormatConvertirVersWMA.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F3)));
-            this.MnuFormatConvertirVersWMA.Size = new System.Drawing.Size(222, 22);
+            this.MnuFormatConvertirVersWMA.Size = new System.Drawing.Size(276, 26);
             this.MnuFormatConvertirVersWMA.Text = "Convertir vers &WMA";
             this.MnuFormatConvertirVersWMA.Click += new System.EventHandler(this.MnuFormatConvertirVersWMA_Click);
             // 
@@ -117,21 +118,22 @@
             this.mnuSpecial.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MnuSpécialHistorique});
             this.mnuSpecial.Name = "mnuSpecial";
-            this.mnuSpecial.Size = new System.Drawing.Size(56, 20);
+            this.mnuSpecial.Size = new System.Drawing.Size(71, 24);
             this.mnuSpecial.Text = "&Spécial";
             // 
             // MnuSpécialHistorique
             // 
             this.MnuSpécialHistorique.Name = "MnuSpécialHistorique";
             this.MnuSpécialHistorique.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.H)));
-            this.MnuSpécialHistorique.Size = new System.Drawing.Size(266, 22);
+            this.MnuSpécialHistorique.Size = new System.Drawing.Size(329, 26);
             this.MnuSpécialHistorique.Text = "Historique de consultation...";
             this.MnuSpécialHistorique.Click += new System.EventHandler(this.MnuSpécialHistorique_Click);
             // 
             // picBaladeur
             // 
             this.picBaladeur.Image = ((System.Drawing.Image)(resources.GetObject("picBaladeur.Image")));
-            this.picBaladeur.Location = new System.Drawing.Point(12, 33);
+            this.picBaladeur.Location = new System.Drawing.Point(16, 41);
+            this.picBaladeur.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picBaladeur.Name = "picBaladeur";
             this.picBaladeur.Size = new System.Drawing.Size(433, 805);
             this.picBaladeur.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -143,11 +145,12 @@
             this.txtParoles.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtParoles.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtParoles.ForeColor = System.Drawing.Color.SkyBlue;
-            this.txtParoles.Location = new System.Drawing.Point(41, 508);
+            this.txtParoles.Location = new System.Drawing.Point(55, 625);
+            this.txtParoles.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtParoles.Multiline = true;
             this.txtParoles.Name = "txtParoles";
             this.txtParoles.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtParoles.Size = new System.Drawing.Size(376, 286);
+            this.txtParoles.Size = new System.Drawing.Size(501, 352);
             this.txtParoles.TabIndex = 92;
             // 
             // lsvChansons
@@ -162,10 +165,12 @@
             this.lsvChansons.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lsvChansons.FullRowSelect = true;
             this.lsvChansons.GridLines = true;
-            this.lsvChansons.Location = new System.Drawing.Point(41, 81);
+            this.lsvChansons.HideSelection = false;
+            this.lsvChansons.Location = new System.Drawing.Point(55, 100);
+            this.lsvChansons.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lsvChansons.MultiSelect = false;
             this.lsvChansons.Name = "lsvChansons";
-            this.lsvChansons.Size = new System.Drawing.Size(376, 421);
+            this.lsvChansons.Size = new System.Drawing.Size(501, 518);
             this.lsvChansons.TabIndex = 0;
             this.lsvChansons.UseCompatibleStateImageBehavior = false;
             this.lsvChansons.View = System.Windows.Forms.View.Details;
@@ -197,19 +202,20 @@
             // 
             this.lblNbChansons.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblNbChansons.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNbChansons.Location = new System.Drawing.Point(273, 85);
+            this.lblNbChansons.Location = new System.Drawing.Point(364, 105);
+            this.lblNbChansons.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNbChansons.Name = "lblNbChansons";
-            this.lblNbChansons.Size = new System.Drawing.Size(32, 16);
+            this.lblNbChansons.Size = new System.Drawing.Size(42, 19);
             this.lblNbChansons.TabIndex = 94;
             this.lblNbChansons.Text = "0";
             this.lblNbChansons.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FrmPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
-            this.ClientSize = new System.Drawing.Size(458, 852);
+            this.ClientSize = new System.Drawing.Size(611, 1049);
             this.Controls.Add(this.lblNbChansons);
             this.Controls.Add(this.lsvChansons);
             this.Controls.Add(this.txtParoles);
@@ -217,10 +223,12 @@
             this.Controls.Add(this.picBaladeur);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.mnuPrincipal;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "FrmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Baladeur MultiFormat ";
+            this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.mnuPrincipal.ResumeLayout(false);
             this.mnuPrincipal.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBaladeur)).EndInit();

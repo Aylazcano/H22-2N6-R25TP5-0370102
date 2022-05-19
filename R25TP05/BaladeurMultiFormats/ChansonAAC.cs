@@ -8,7 +8,7 @@ namespace BaladeurMultiFormats
         /// <summary>
         /// Obtient le format du fichier (AAC) 
         /// </summary>
-        public override string Format { get { return "ACC"; } }
+        public override string Format { get { return "AAC"; } }
         #endregion
 
         #region CONSTRUCTEURS
